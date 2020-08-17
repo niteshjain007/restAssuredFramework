@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="RestAssuredTestsuite">
+<listeners>
+	<!-- <listener class-name="com.employeeapi.utilities.Listeners"/>TestListener -->
+	<listener class-name="com.employeeapi.utilities.TestListener"/>
+</listeners>
+	<test name="RestAssuredTests">
+		<classes>
+			<class name="com.employeeapi.testCases.Test1_Get_All_Emp" />
+			<class name="com.employeeapi.testCases.Test2_Get_Single_Emp" />
+			<class name="com.employeeapi.testCases.Test6_Get_EmployeeByFirstNameAndVerifyLastName" />
+		
+		</classes>	
+	
+	</test>
+
+</suite>
